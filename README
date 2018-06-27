@@ -1,0 +1,9 @@
+Before running the code, make sure sysdig, lua5.1 and luasocket are proporly installed. (Ubuntu has those packages, run "sudo apt install <selected package>")
+
+To set up sysdig data collection (default port: 8080):
+1. run "gcc server.c -o server" to get a server executable
+2. run "./server"
+3. run "sysdig -c countsc.lua"
+
+NOTE: 
+1. The sysdig Chisel "countsc.lua" is just a prototype with limited functionality. However, additional functionalities like filtering can be easily added.
