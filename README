@@ -7,3 +7,4 @@ To set up sysdig data collection (default port: 8080):
 
 NOTE: 
 1. The sysdig Chisel "countsc.lua" is just a prototype with limited functionality. However, additional functionalities like filtering can be easily added.
+2. The server "server.c" currently stuout all data it receives. The data received can be saved to a file, or processed in real-time with small modification.
